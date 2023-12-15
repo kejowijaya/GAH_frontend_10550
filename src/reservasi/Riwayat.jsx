@@ -8,13 +8,7 @@ import {
   TableRow,
   TableCell,
   Tooltip,
-  Modal,
-  ModalContent,
-  ModalHeader,
-  ModalBody,
-  ModalFooter,
   Button,
-  useDisclosure,
 } from "@nextui-org/react";
 import instance from "../axios";
 import { NavBar } from "../Components/NavBar";

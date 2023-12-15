@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import instance from "../axios";
 import { NavLink, useNavigate } from "react-router-dom";
-import { NavBar } from "../components/NavBar";
+import { NavBar } from "../Components/NavBar";
 import {
   Input,
   Table,
@@ -10,19 +10,13 @@ import {
   TableBody,
   TableRow,
   TableCell,
-  Tooltip,
   Modal,
   ModalContent,
   ModalHeader,
   ModalBody,
   ModalFooter,
   Button,
-  useDisclosure,
-  SelectItem,
-  Select,
   Card,
-  ScrollShadow,
-  Link,
 } from "@nextui-org/react";
 
 export function ResumeReservasi() {

@@ -16,8 +16,6 @@ import {
   Button,
   Switch,
   useDisclosure,
-  Pagination,
-  getKeyValue,
   Chip,
   Select,
   SelectItem,

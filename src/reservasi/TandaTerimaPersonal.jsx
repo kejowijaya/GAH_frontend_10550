@@ -1,28 +1,17 @@
 import React, { useState, useEffect, useRef } from "react";
 import instance from "../axios";
 import { NavLink, useNavigate } from "react-router-dom";
-import { NavBar } from "../components/NavBar";
+import { NavBar } from "../Components/NavBar";
 import {
-  Input,
   Table,
   TableHeader,
   TableColumn,
   TableBody,
   TableRow,
   TableCell,
-  Tooltip,
-  Modal,
-  ModalContent,
-  ModalHeader,
-  ModalBody,
-  ModalFooter,
   Button,
-  useDisclosure,
-  SelectItem,
-  Select,
   Card,
   ScrollShadow,
-  Link,
 } from "@nextui-org/react";
 
 import html2canvas from "html2canvas";

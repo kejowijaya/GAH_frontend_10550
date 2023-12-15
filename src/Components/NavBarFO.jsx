@@ -6,10 +6,6 @@ import {
   Link,
   Button,
   Image,
-  Dropdown,
-  DropdownTrigger,
-  DropdownMenu,
-  DropdownItem,
 } from "@nextui-org/react";
 import { MdExitToApp } from "react-icons/md";
 
